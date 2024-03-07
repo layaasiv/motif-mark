@@ -15,6 +15,7 @@ The script uses argparse with 2 required arguments: ```-f``` and ```-m```. Here 
 ```./motif-mark-oop.py -f <path to fasta file> -m <path to motif txt file>```
 
 The algorithm only takes 1 fasta and motif file at a time, and will depict motif locations for each sequence in that file in the image. The final PNG file corresponding to the inputted fasta file will have the same filename as the fasta file.
+* Example: An input fasta file of ```Figure_1.fa``` will produce a PNG file called ```Figure_1.png```. 
 
 ## Notes
 This algorithm takes a maximum of 5 different motifs because this is the maximum number of different colors that have been specified in the script. If the ```-m``` input contains more than 5 motifs, additional RGB codes must be added to the ```colors``` list in the script. 
