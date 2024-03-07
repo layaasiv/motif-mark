@@ -19,6 +19,8 @@ The algorithm only takes 1 fasta and motif file at a time, and will depict motif
 ## Notes
 This algorithm takes a maximum of 5 different motifs because this is the maximum number of different colors that have been specified in the script. If the ```-m``` input contains more than 5 motifs, additional RGB codes must be added to the ```colors``` list in the script. 
 
+Lines represent introns, and black rectangles represent exons. Rectangles of other colors represent different motifs (specified in the legend of the image).
+
 ## Packages used 
 * argparse
 * re
