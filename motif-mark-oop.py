@@ -191,7 +191,7 @@ class Draw:
         context.rectangle(canvas_width - 150, motif_legend_ypos, 15, 15)
         context.fill()
         context.set_source_rgb(0,0,0)
-        context.move_to(canvas_width - 130, motif_legend_ypos + 10)
+        context.move_to(canvas_width - 130, motif_legend_ypos + 12)
         context.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
         context.set_font_size(14)
         context.show_text(motif_name)
